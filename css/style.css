@@ -542,6 +542,15 @@ header {
   position: relative;
   padding: 20px;
 }
+.work-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #3b2fe6;
+    color: #fff;
+}
 .work > img {
   width: 100%;
 }
@@ -642,6 +651,15 @@ header {
   margin: 15px 0;
   border: 1px solid #eee;
 }
+.service-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #cad438;
+    color: #fff;
+}
 .service i {
   position: absolute;
   left: 20px;
@@ -652,7 +670,7 @@ header {
 }
 .service:after {
   content: "";
-  background-color: #1c1d21;
+  background-color: #2c2d35;
   position: absolute;
   left: 0;
   top: 0;
