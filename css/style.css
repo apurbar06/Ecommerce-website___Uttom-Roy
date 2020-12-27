@@ -672,6 +672,9 @@ header {
 .service:hover h3 {
   color: #fff;
 }
+.service:hover h4 {
+    color: #fff;
+  }
 .feature {
   margin: 15px 0;
 }
