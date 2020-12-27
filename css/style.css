@@ -509,13 +509,6 @@ header {
 .breadcrumb > li + li:before {
   color: #868f9b;
 }
-.about {
-  position: relative;
-  text-align: center;
-  padding: 40px 20px;
-  border: 1px solid #eee;
-  margin: 15px 0;
-}
 .about-title h2 {
     display: flex;
     justify-content: center;
@@ -527,9 +520,17 @@ header {
     background-color: #3ce797;
     color: #fff;
 }
+.about {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  /* border: 5px solid rgb(255, 0, 0); */
+  background-color: #a9eb40;
+  margin: 15px 0;
+}
 .about i {
   font-size: 36px;
-  color: #6195ff;
+  color: #f8f8fa;
   margin-bottom: 20px;
 }
 .about:after {
@@ -553,6 +554,47 @@ header {
 }
 .about:hover h3 {
   color: #fff;
+}
+.about p {
+  color: rgb(0, 0, 0);
+}
+.about_m {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  /* border: 5px solid rgb(255, 0, 0); */
+  background-color: #925bdb;
+  margin: 15px 0;
+}
+.about_m i {
+  font-size: 36px;
+  color: #f8f8fa;
+  margin-bottom: 20px;
+}
+.about_m:after {
+  content: "";
+  background-color: #1c1d21;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  z-index: -1;
+  -webkit-transition: 0.2s width;
+  transition: 0.2s width;
+}
+.about_m:hover:after {
+  width: 100%;
+}
+.about_m h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+.about_m:hover h3 {
+  color: #fff;
+}
+.about_m p {
+  color: rgb(0, 0, 0);
 }
 .work {
   position: relative;
@@ -667,6 +709,7 @@ header {
   padding: 40px 20px 40px 70px;
   margin: 15px 0;
   border: 1px solid #eee;
+  background-color: #37da45;
 }
 .service-title h2 {
     display: flex;
@@ -683,7 +726,7 @@ header {
   left: 20px;
   text-align: center;
   font-size: 32px;
-  color: #6195ff;
+  color: #61f4ff;
   border-radius: 50%;
 }
 .service:after {
@@ -704,13 +747,17 @@ header {
 .service h3 {
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
+  color: #0953b4;
 }
 .service:hover h3 {
   color: #fff;
 }
 .service:hover h4 {
     color: #fff;
-  }
+}
+.service p {
+  color: #fff;
+}
 .feature {
   margin: 15px 0;
 }
@@ -926,6 +973,17 @@ header {
 .blog {
   background-color: #fff;
   margin: 15px 0;
+}
+.blog-title h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 100%;
+  height: 150px;
+  background-color: #dd2c8d;
+  color: #fff;
 }
 .blog .blog-content {
   padding: 20px 20px 40px;
