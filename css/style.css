@@ -69,8 +69,8 @@ ol {
   position: relative;
 }
 .md-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
 .sm-padding {
   padding-top: 60px;
@@ -81,6 +81,11 @@ ol {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
+.bg-dark-grey {
+    background-color: #886a6a;
+    /* border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; */
+  }
 .bg-dark {
   background-color: #1c1d21;
 }
@@ -511,6 +516,16 @@ header {
   border: 1px solid #eee;
   margin: 15px 0;
 }
+.about-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 150px;
+    background-color: #3ce797;
+    color: #fff;
+}
 .about i {
   font-size: 36px;
   color: #6195ff;
@@ -546,9 +561,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
     width: 100%;
     height: 150px;
-    background-color: #3b2fe6;
+    background-color: #5950da;
     color: #fff;
 }
 .work > img {
@@ -655,6 +671,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
     width: 100%;
     height: 150px;
     background-color: #cad438;
@@ -1142,6 +1159,16 @@ header {
   margin: 15px 0;
   text-align: center;
 }
+.contact-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 150px;
+    background-color: #4bb9d4;
+    color: #fff;
+}
 .contact i {
   font-size: 36px;
   color: #6195ff;
@@ -1169,7 +1196,7 @@ header {
   margin-bottom: 40px;
 }
 .footer-logo > a > img {
-  max-height: 80px;
+  /* max-height: 80px; */
 }
 .footer-follow {
   text-align: center;
