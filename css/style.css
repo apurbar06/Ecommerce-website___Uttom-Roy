@@ -614,7 +614,7 @@ header {
   width: 100%;
 }
 .work .overlay {
-  background: #1c1d21;
+  background: #e7e8ec;
   position: absolute;
   top: 0;
   left: 0;
@@ -646,7 +646,7 @@ header {
   -ms-transform: translateY(100%);
   transform: translateY(100%);
   opacity: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 10px;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
